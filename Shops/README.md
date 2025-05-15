@@ -1,0 +1,1 @@
+﻿Location / shop notes

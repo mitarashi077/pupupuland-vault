@@ -1,0 +1,1 @@
+﻿Note templates for reuse
