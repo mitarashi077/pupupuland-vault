@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6f821e88718d17fb",
+        "id": "90c8164a6d60f308",
         "type": "tabs",
         "children": [
           {
-            "id": "cfaa6f928e558f6c",
+            "id": "a965155ab24adbd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/「Obsidian」と「Cursor」を使って、noteの記事をどんどこ書く｜akane.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "「Obsidian」と「Cursor」を使って、noteの記事をどんどこ書く｜akane"
+              "title": "新規タブ"
             }
           }
         ]
@@ -152,13 +148,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/「Obsidian」と「Cursor」を使って、noteの記事をどんどこ書く｜akane.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "「Obsidian」と「Cursor」を使って、noteの記事をどんどこ書く｜akaneのアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -190,11 +185,12 @@
       "line-notes-sync:Sync LINE messages": false
     }
   },
-  "active": "cfaa6f928e558f6c",
+  "active": "a965155ab24adbd2",
   "lastOpenFiles": [
+    "Zettelkasten/LiteratureNote/「Obsidian」と「Cursor」を使って、noteの記事をどんどこ書く｜akane.md",
     "Zettelkasten/LiteratureNote/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
+    "Zettelkasten/LiteratureNote/Obsidian Web Clipper × AI でWebページを自動要約＆ストックしてみた  DevelopersIO.md",
     "Clippings/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
-    "Clippings/「Obsidian」と「Cursor」を使って、noteの記事をどんどこ書く｜akane.md",
     "Welcome.md",
     "Clippings",
     "README.md",
