@@ -1,1 +1,0 @@
-﻿Quotes and language

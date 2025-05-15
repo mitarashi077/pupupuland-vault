@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettels/Obsidian Git v2.33.0 設定メモ.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Git v2.33.0 設定メモ"
+              "title": "Welcome"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettels/Obsidian Git v2.33.0 設定メモ.md",
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian Git v2.33.0 設定メモのアウトライン"
+              "title": "Welcomeのアウトライン"
             }
           },
           {
@@ -186,12 +186,21 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "line-notes-sync:Sync LINE messages": false
     }
   },
   "active": "cfaa6f928e558f6c",
   "lastOpenFiles": [
-    "Zettels/Obsidian Git v2.33.0 設定メモ.md",
+    "LINE/2025-05-16-561189338449969307.md",
+    "Zettelkasten/Zettelkastenの運用",
+    "Zettelkasten/PermanentNote",
+    "Zettelkasten/LiteratureNote",
+    "Zettelkasten/IndexNote",
+    "Zettelkasten/FleetingNote",
+    "Zettelkasten",
+    "Zettelkasten/Zettelkastenの運用/Obsidian Git v2.33.0 設定メモ.md",
+    "LINE",
     "Zettels/README.md",
     "Zettels/無題のファイル.md",
     "Templates/Zettel.md",
@@ -211,15 +220,8 @@
     "Shops/README.md",
     "Shops",
     "Words/README.md",
-    "Words",
     "Logs/Learning/README.md",
-    "Logs/Reading",
-    "Logs/Learning",
-    "Logs",
     "Discovery/README.md",
-    "Discovery",
-    "Daily/README.md",
-    "Daily",
-    "Zettels"
+    "Daily/README.md"
   ]
 }

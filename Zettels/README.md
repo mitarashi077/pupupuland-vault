@@ -1,1 +1,0 @@
-Zettels folder: atomic notes
