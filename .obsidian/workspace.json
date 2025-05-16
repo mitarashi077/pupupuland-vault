@@ -11,10 +11,14 @@
             "id": "f675fcf57f3cb53b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2025-05-16.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-05-16"
             }
           }
         ]
@@ -187,6 +191,8 @@
   },
   "active": "f675fcf57f3cb53b",
   "lastOpenFiles": [
+    "Daily/2025-05-16.md",
+    "Daily/2025-05-17.md",
     "README.md",
     "Templates/README.md",
     "Welcome.md",
@@ -221,7 +227,6 @@
     "Templates/Slide.md",
     "Templates/Daily.md",
     "Templates",
-    "Slides/README.md",
-    "Shops/README.md"
+    "Slides/README.md"
   ]
 }
