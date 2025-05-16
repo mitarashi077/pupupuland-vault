@@ -1,3 +1,16 @@
+---
+title: "Obsidian Web Clipper × AI でWebページを自動要約＆ストックしてみた"
+source: "https://dev.classmethod.jp/articles/obsidian-web-clipper-ai-summary/"
+author: "豊島"
+created: 2025-05-16
+tags:
+  - "obsidian"
+  - "web-clipper"
+  - "ai"
+  - "productivity"
+  - "tools"
+---
+
 こんにちは、豊島です。
 
 最近、ノート系のアプリケーション（NotionやInkdropなど）を片っ端から試しており、現在はObsidianを愛用しています

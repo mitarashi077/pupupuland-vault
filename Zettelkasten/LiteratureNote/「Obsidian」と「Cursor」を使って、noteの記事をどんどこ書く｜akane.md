@@ -8,6 +8,11 @@ created: 2025-05-16
 description: "こんにちは！株式会社Rabeeのデザイナーのakaneです。  今回は「Obsidian」と「Cursor」という2種類のテキストエディターを使うことで、noteをサクサク書く体制を整えてみた話です。情報収集からアウトプットまでをスムーズにしたい方、ぜひ読んでいただけたら嬉しいです。  どうぞ最後までお楽しみください🐰   参考記事  ObsidianとCursor（とGitHub）の活用方法については、以下の記事を参考にさせていただきました。  ・ ・ ・  使うツール  今回使うツールは、以下の2つのエディターのみ。    Obsidian（Markdownエディター）    C"
 tags:
   - "clippings"
+  - "obsidian"
+  - "cursor"
+  - "productivity"
+  - "writing"
+  - "workflow"
 ---
 ![見出し画像](https://assets.st-note.com/production/uploads/images/184955665/rectangle_large_type_2_ab7f6f7646a837a6f849e9c4a721741f.png?width=1200)
 
