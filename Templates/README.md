@@ -1,1 +1,1 @@
-﻿Note templates for reuse
+Note templates for reuse
