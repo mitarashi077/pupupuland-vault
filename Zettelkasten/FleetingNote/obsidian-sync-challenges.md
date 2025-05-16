@@ -1,7 +1,7 @@
 ---
 type: fleeting-note
 created: 2025-05-16
-updated: 2024-03-19
+updated: 2025-05-16
 status: 新規
 tags: [obsidian, sync, mobile, 技術メモ]
 source: LINE
