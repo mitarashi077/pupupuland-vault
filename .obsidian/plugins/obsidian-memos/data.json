@@ -1,7 +1,7 @@
 {
   "FirstLoaded": false,
   "StartDate": "Sunday",
-  "InsertAfter": "",
+  "InsertAfter": "#Journal",
   "UserName": "mitarashi",
   "ProcessEntriesBelow": "",
   "Language": "en",
@@ -50,7 +50,7 @@
     "MemoDefaultMultiFilePath": "Thino",
     "MemoDefaultSingleFilePath": "basic.thino.md"
   },
-  "MemoDailyTarget": 5,
+  "MemoDailyTarget": 3,
   "HeatmapColorScheme": "default",
   "EnabledHttpApi": false,
   "HttpApiIpType": "127.0.0.1",
@@ -95,7 +95,7 @@
   "DifferentInsertTarget": false,
   "InsertAfterForTask": "",
   "ProcessContentTarget": "custom",
-  "InsertType": "end",
+  "InsertType": "custom",
   "ShareAppendType": "preset",
   "SharePrependType": "preset",
   "SetFileNameAfterCreate": false,
