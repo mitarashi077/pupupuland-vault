@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "新宿三丁目店｜松尾ジンギスカン公式サイト 北海道の札幌・滝川・千歳などに展開"
             }
+          },
+          {
+            "id": "947e388bf842d663",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,11 +172,13 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "acaedb1c30a0e84d",
+  "active": "947e388bf842d663",
   "lastOpenFiles": [
+    "Zettelkasten/LiteratureNote/新宿三丁目店｜松尾ジンギスカン公式サイト 北海道の札幌・滝川・千歳などに展開.md",
     "無題のファイル 1.canvas",
     "Zettelkasten/IndexNote/色彩.md",
     "Zettelkasten/IndexNote/インデックス.md",
@@ -177,7 +190,6 @@
     "Templates/fleeting-note.md",
     "Daily/2025-05-17.md",
     "README.md",
-    "Zettelkasten/LiteratureNote/新宿三丁目店｜松尾ジンギスカン公式サイト 北海道の札幌・滝川・千歳などに展開.md",
     "Zettelkasten/Zettelkastenの運用/Obsidian Git v2.33.0 設定メモ.md",
     "Zettelkasten/LiteratureNote/「Obsidian」と「Cursor」を使って、noteの記事をどんどこ書く｜akane.md",
     "Daily/2025-05-16.md"
