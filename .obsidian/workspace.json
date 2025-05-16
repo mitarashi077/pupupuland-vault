@@ -16,19 +16,8 @@
               "icon": "Memos",
               "title": "Thino"
             }
-          },
-          {
-            "id": "78820d2caea42d81",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,10 +186,11 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "78820d2caea42d81",
+  "active": "d55dd104c966a8bc",
   "lastOpenFiles": [
-    "Zettelkasten/Zettelkastenの運用/Obsidian Git v2.33.0 設定メモ.md",
+    "無題のファイル 1.canvas",
     "Daily/2025-05-17.md",
+    "Zettelkasten/Zettelkastenの運用/Obsidian Git v2.33.0 設定メモ.md",
     "Zettelkasten/FleetingNote/無題のファイル.md",
     "無題のファイル.canvas",
     "Daily/2025-05-15.md",
@@ -234,7 +224,6 @@
     "readme.md",
     "関連Zettel名.md",
     "Logs/Reading/README.md",
-    "Templates/Slide.md",
     "Templates"
   ]
 }
