@@ -203,6 +203,9 @@
   },
   "active": "b38cd64456c453f0",
   "lastOpenFiles": [
+    "Zettelkasten/IndexNote/インデックス.md",
+    "Zettelkasten/IndexNote/心理.md",
+    "Zettelkasten/IndexNote/色彩.md",
     "Zettelkasten/FleetingNote/obsidian-git-automation.md",
     "Zettelkasten/FleetingNote/obsidian-sync-challenges.md",
     "Zettelkasten/PermanentNote/色彩と心理的影響.md",
@@ -230,8 +233,6 @@
     "Zettelkasten/LiteratureNote/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
     "LINE/2025-05-16-561233421607895297.md",
     "LINE/2025-05-16-561197361683497064.md",
-    "Zettelkasten/LiteratureNote/「Obsidian」と「Cursor」を使って、noteの記事をどんどこ書く｜akane.md",
-    "Clippings/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
     "Clippings",
     "Zettelkasten/Zettelkastenの運用",
     "Zettelkasten/PermanentNote",
@@ -239,7 +240,6 @@
     "Zettelkasten/IndexNote",
     "Zettelkasten/FleetingNote",
     "Zettelkasten",
-    "LINE",
-    "Zettels/README.md"
+    "LINE"
   ]
 }
