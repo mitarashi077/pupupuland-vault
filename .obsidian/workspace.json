@@ -11,10 +11,14 @@
             "id": "a965155ab24adbd2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/LiteratureNote/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer"
             }
           }
         ]
@@ -187,6 +191,7 @@
   },
   "active": "a965155ab24adbd2",
   "lastOpenFiles": [
+    "無題のファイル.canvas",
     "LINE/2025-05-16-561233421607895297.md",
     "LINE/2025-05-16-561200066975760555.md",
     "LINE/2025-05-16-561197361683497064.md",
@@ -211,7 +216,6 @@
     "Templates/Zettel.md",
     "Daily/2025-05-15.md",
     "関連するZettel2.md",
-    "無題のファイル.canvas",
     "readme.md",
     "関連Zettel名.md",
     "Logs/Reading/README.md",
@@ -222,7 +226,6 @@
     "Slides/README.md",
     "Slides",
     "Shops/README.md",
-    "Words/README.md",
-    "Logs/Learning/README.md"
+    "Words/README.md"
   ]
 }
