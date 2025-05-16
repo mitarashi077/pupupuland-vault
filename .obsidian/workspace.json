@@ -11,14 +11,17 @@
             "id": "f675fcf57f3cb53b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Daily/2025-05-16.md",
-                "mode": "source",
-                "source": false
+                "file": "無題のファイル.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "2025-05-16"
+              "icon": "lucide-layout-dashboard",
+              "title": "無題のファイル"
             }
           }
         ]
