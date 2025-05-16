@@ -1,4 +1,41 @@
-﻿.obsidian/workspace
-.obsidian/cache
+﻿# -----------------------------
+# OS・エディタ由来の一時ファイル
+# -----------------------------
 .DS_Store
 Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# -----------------------------
+# Obsidian関連
+# -----------------------------
+.obsidian/plugins/**/node_modules/
+.obsidian/plugins/**/dist/
+.obsidian/workspace
+.obsidian/cache
+.obsidian/.obsidian-workspace
+
+# -----------------------------
+# iCloud一時ファイル
+# -----------------------------
+*.icloud
+*.tmp
+*.swp
+*.lock
+Icon?
+
+# -----------------------------
+# エクスポート・ビルド生成物
+# -----------------------------
+Slides/*.pdf
+Slides/*.html
+Slides/dist/
+Slides/output/
+zettels-summary.md
+
+# -----------------------------
+# バックアップやコンフリクト解消用
+# -----------------------------
+*.conflict.md
+*.backup.md
+*.orig.md
