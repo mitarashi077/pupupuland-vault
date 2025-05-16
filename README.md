@@ -2,26 +2,28 @@
 
 ## 🏭 概要
 
-**思考・学習・発見の痕跡を、1つの場所に蓄積し、つなぎ、活かす。**
+**思考・学習・発見の痕跡を、1つの場所に蓄積し、つなぎ、活かす。**  
 このリポジトリは、個人の知的活動を続繰的・構造的に支えるために設計された Obsidian Vault です。
 
-Zettelkasten（1ノート1概念）を根心に、日々の気づきや読書、学びの記録を分散させず蓄積。
+Zettelkasten（1ノート1概念）を根心に、日々の気づきや読書、学びの記録を分散させず蓄積。  
 Cursor による AI支援と Marp によるスライド出力を組み合わせて、**「記録する」から「伝える」までの循環**を実現します。
 
 ---
 
 ## 🧹 Vault内構成と役割
 
-| フォルダ         | 説明                                    |
-| ------------ | ------------------------------------- |
-| `Zettels/`   | 根となる短く高密度な知識ノート（1ノート1概念）              |
-| `Daily/`     | 日々の行動・感情・気づきのログ                       |
-| `Logs/`      | 学習や読書など、続繰的な記録を格納（Learning / Reading） |
-| `Words/`     | 印象に残った言葉や引用の収集                        |
-| `Discovery/` | ふとした直感・発見・ひらめき                        |
-| `Slides/`    | Marp形式で出力されたスライドの置き場所                 |
-| `Templates/` | ノート作成を助けるテンプレート集                      |
-| `Shops/`     | 訪れた場所・お店の記録                           |
+|フォルダ|説明|
+|---|---|
+|`Zettelkasten/`|知識ノート全体の集約場所。以下に分類される|
+|┣ `PermanentNote/`|概念・思考の定着ノート（1ノート1アイデア）|
+|┣ `FleetingNote/`|一時的なメモ、断片的な気づき|
+|┣ `LiteratureNote/`|読書・引用メモ（出典付き）|
+|┣ `IndexNote/`|トピック別の目次・分類インデックス|
+|┗ `Zettelkasten運用/`|この方式の運用方針、テンプレート等|
+|`Daily/`|日々の行動・感情・気づきのログ|
+|`LINE/`|LINEショートカット経由で自動で受け取るノート|
+|`Template/`|ノート作成用テンプレート|
+|`MEMO(Thino)/`|一行メモなど短文で分類されていない軽量メモ|
 
 ---
 
@@ -29,21 +31,19 @@ Cursor による AI支援と Marp によるスライド出力を組み合わせ�
 
 ```tree
 📁 pupupuland Vault
-├── 📂 Core Notes
-│ ├── 📘 Zettels（1概念ノート）
-│ ├── 📒 Daily（日々の記録）
-│ ├── 💡 Discovery（発見・直感）
-│ └── 📝 Words（引用・名言）
-├── 📂 Logs（記録）
-│ ├── 📚 Reading（読書）
-│ └── 🎓 Learning（学習）
-├── 📂 Output（出力）
-│ └── 📑 Slides（Marp形式）
-├── 📂 Templates
-└── 🏪 Shops（お店・場所メモ）
+├── 🧠 Zettelkasten/
+│   ├── 📄 PermanentNote/
+│   ├── 🌀 FleetingNote/
+│   ├── 📚 LiteratureNote/
+│   ├── 📇 IndexNote/
+│   └── 🛠 Zettelkasten運用/
+├── 🗓 Daily/
+├── 💬 LINE/
+├── ✏️ MEMO(Thino)/
+├── 🧰 Template/
 ```
 
-この構成により、**思考の断片を漏れなく記録し、あとから再発見しやすい構造**が生まれます。
+この構成により、**一時的な思考 → 概念化 → 体系化** のプロセスを踏める構造が確保されています。
 
 ---
 
@@ -53,86 +53,101 @@ Cursor による AI支援と Marp によるスライド出力を組み合わせ�
 flowchart TD
 
 subgraph IN[📥 インプット]
-  A1[🧠 手入力（Zettels / Daily）]
-  A2[🔖 Web Clip（Safari / MarkDownload）]
-  A3[💬 LINEメモ / iOSショートカット]
+  A1[🧠 手入力（FleetingNote / Daily）]
+  A2[🔖 Web Clip（MarkDownload）]
+  A3[💬 LINEメモ（iOSショートカット）]
 end
 
-subgraph OB[🗂 Obsidian Vault]
-  B1[📘 Zettels]
-  B2[📒 Daily Notes]
+subgraph VAULT[📂 pupupuland Vault]
+  B1[🌀 FleetingNote]
+  B2[📄 PermanentNote]
+  B3[📚 LiteratureNote]
+  B4[📇 IndexNote]
 end
 
-subgraph AI[🧠 Cursor AI処理]
-  C1[🧠 要約 / 再構成]
-  C2[📁 zettels-summary.md]
+subgraph AI[🤖 Cursor AI処理]
+  C1[📎 統合・要約]
+  C2[📑 zettels-summary.md]
 end
 
 subgraph OUT[📤 アウトプット]
   D1[📊 Marpスライド]
-  D2[🌐 Zenn / Note]
-  D3[📁 GitHub / PDF配布]
+  D2[🌐 Zenn / Note記事化]
+  D3[🔄 GitHub Actions配信]
 end
 
 A1 --> B1
-A2 --> B1
-A3 --> B2
+A2 --> B3
+A3 --> B1
 B1 --> C1
-C1 --> C2
+B3 --> C1
+C1 --> B2
+B2 --> C2
 C2 --> D1
 D1 --> D2
 D1 --> D3
 ```
 
-> 入力 → 記録 → 構造化 → 要約 → 発信。**思考が自然に循環するフロー**がこのVaultの設計思想です。
-
 ---
 
 ## 🌟 このVaultが目指すもの
 
-* 記録が知識へと変わる構造を持つこと
-* 分散せず、**“使える形”で思考を保存すること**
-* GitHubとの連携によって、**マルチデバイス・履歴管理**を両立
-* Cursorを使った**AI支援による再構成・編集**
-* Marpによる**スライド化＝視覚的発信手段**の確保
+- 一時的なメモが知識へと昇華する「思考の変換構造」
+    
+- GitHubによる履歴管理とマルチデバイス連携
+    
+- AIによる再構成とアウトプット補助（Cursor）
+    
+- Zettelkasten構造に基づいた**非階層的な思考リンク**
+    
+- Markdownベースでそのままプレゼン可能な構成（Marp）
+    
 
 ---
 
 ## 🔗 使用ツールと役割
 
-| ツール                       | 概要                     |
-| ------------------------- | ---------------------- |
-| **Obsidian**              | Vaultとしてのノート管理・双方向リンク  |
-| **GitHub + obsidian-git** | バージョン管理・リモート同期         |
-| **Cursor**                | AIによるZettelsの集縮・要約・編集  |
-| **Marp**                  | Markdownからスライド化        |
-| **LINE / WebClipper**     | 日常の思考断片を即座に取り込むインタフェース |
+|ツール|概要|
+|---|---|
+|**Obsidian**|ノート管理・リンク構造生成|
+|**GitHub + obsidian-git**|リモート同期・履歴保存|
+|**Cursor**|AIによる編集・要約・構造化|
+|**Marp**|Markdownからスライド作成|
+|**LINE / WebClipper**|外部インプットの受け取り手段|
 
 ---
 
 ## 📦 運用ルール（例）
 
-* `Zettels/`：1ノート = 1アイデア。双方向リンクを意識する
-* `Daily/`：日記とログ。テンプレから自動生成
-* `Logs/`：まとまった読書や学習に記録フォルダを分離
-* `Slides/`：週1で `zettels-summary.md` を作成 → Marpでスライド化
-
-👉 これらは、Obsidianのテンプレート機能とGitの自動同期を活用して、**反復可能で手間の少ない運用**に設計されています。
+- `FleetingNote/`：何でも一時的に突っ込む場。後で分類・昇格する
+    
+- `PermanentNote/`：必ず1アイデア1ファイル。双方向リンク意識
+    
+- `LiteratureNote/`：引用・要約を明示し、解釈も自分の言葉で書く
+    
+- `IndexNote/`：トピックのハブとして生成・更新
+    
+- 週次で `zettels-summary.md` を生成 → `Marp` でスライド化
+    
 
 ---
 
 ## 🔭 今後の展望（ToDo）
 
-* GitHub Actionsでの `Slides/*.md → PDF/HTML` 自動出力
-* CursorとZettelsの自動連携ルール作成（定期集縮）
-* WebClip / LINEメモのObsidian自動反映（ショートカット強化）
-* `Zenn_Templates/` など記事投稿構成の導入
+- GitHub ActionsによるSlides出力自動化
+    
+- CursorによるZettels要約バッチ処理
+    
+- WebClip/LINE連携の自動分類スクリプト導入
+    
+- Zenn投稿向けテンプレ・変換ルール整備
+    
 
 ---
 
 ## 📄 ライセンス
 
-このVaultは個人の知的生産を目的として運用されています。
-外部公開については必要に
+このVaultは個人の知的生産を目的として運用されています。  
+外部公開については必要に応じてMITやCCライセンスを適用予定です。
 
-
+---

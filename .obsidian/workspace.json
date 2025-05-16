@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "90c8164a6d60f308",
+        "id": "bf431b21593ab98f",
         "type": "tabs",
         "children": [
           {
-            "id": "a965155ab24adbd2",
+            "id": "f675fcf57f3cb53b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/LiteratureNote/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer"
+              "title": "README"
             }
           }
         ]
@@ -175,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 457.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,27 +189,27 @@
       "line-notes-sync:Sync LINE messages": false
     }
   },
-  "active": "a965155ab24adbd2",
+  "active": "f675fcf57f3cb53b",
   "lastOpenFiles": [
+    "Zettelkasten/LiteratureNote/Obsidian Web Clipper × AI でWebページを自動要約＆ストックしてみた  DevelopersIO.md",
+    "Zettelkasten/Zettelkastenの運用/Obsidian Git v2.33.0 設定メモ.md",
+    "LINE/2025-05-16-561200066975760555.md",
+    "LINE/2025-05-16-561189338449969307.md",
+    "Zettelkasten/LiteratureNote/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
     "無題のファイル.canvas",
     "LINE/2025-05-16-561233421607895297.md",
-    "LINE/2025-05-16-561200066975760555.md",
     "LINE/2025-05-16-561197361683497064.md",
     "Zettelkasten/LiteratureNote/「Obsidian」と「Cursor」を使って、noteの記事をどんどこ書く｜akane.md",
-    "Zettelkasten/LiteratureNote/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
-    "Zettelkasten/LiteratureNote/Obsidian Web Clipper × AI でWebページを自動要約＆ストックしてみた  DevelopersIO.md",
     "Clippings/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
     "Welcome.md",
     "Clippings",
     "README.md",
-    "LINE/2025-05-16-561189338449969307.md",
     "Zettelkasten/Zettelkastenの運用",
     "Zettelkasten/PermanentNote",
     "Zettelkasten/LiteratureNote",
     "Zettelkasten/IndexNote",
     "Zettelkasten/FleetingNote",
     "Zettelkasten",
-    "Zettelkasten/Zettelkastenの運用/Obsidian Git v2.33.0 設定メモ.md",
     "LINE",
     "Zettels/README.md",
     "Zettels/無題のファイル.md",
