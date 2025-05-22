@@ -27,8 +27,7 @@
               "title": "グラフビュー"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b38cd64456c453f0",
+  "active": "d55dd104c966a8bc",
   "lastOpenFiles": [
     "無題のファイル.md",
     "LINE/2025-05-20-561859254496264805.md",
