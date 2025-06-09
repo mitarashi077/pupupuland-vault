@@ -41,8 +41,7 @@
               "title": "グラフビュー"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,8 +209,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3d3b185bf32b78cf",
+  "active": "d55dd104c966a8bc",
   "lastOpenFiles": [
+    "Daily/2025-06-09.md",
+    "Daily/2025-05-22.md",
     "Daily/2025-05-26.md",
     "Zettelkasten/LiteratureNote/メモが勝手にブログ記事になる！？がんばりすぎないObsidianとAIで実現するインプット→アウトプット革命｜みんなのニュースレター.md",
     "README.md",
@@ -239,8 +240,6 @@
     "Daily/2025-05-15.md",
     "Daily/2025-05-16.md",
     "Zettelkasten/LiteratureNote/新宿三丁目店｜松尾ジンギスカン公式サイト 北海道の札幌・滝川・千歳などに展開.md",
-    "Templates/README.md",
-    "Welcome.md",
     "MEMO(Thino)",
     "Clippings",
     "Zettelkasten/Zettelkastenの運用",
